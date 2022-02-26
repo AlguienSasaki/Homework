@@ -9,9 +9,9 @@ t= int(input())
 
 if u > d and  u > t:
     print("El primer número es el más grande")
-elif d > t and d > u:
+elif d > u and d > t:
     print("El segundo número es el más grande")
 elif t > u and t > d:
-    print("El segundo número es el más grande")
+    print("El tercer número es el más grande")
 else:
     print("Escribiste el mismo número XDXDXD")
