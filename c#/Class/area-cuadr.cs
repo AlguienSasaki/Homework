@@ -4,8 +4,7 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
-      int ado;
-      int area;
+      int ado, area;
       Console.WriteLine ("Ingresa el lado: ");
       ado = int.Parse(Console.ReadLine());
       area = ado * ado;
